@@ -10,8 +10,6 @@ public class SierpinskiTriangle {
 	public static void main(String[] args) {
 		setupFrame();
 		drawTriangles();
-		
-		
 	}
 	
 	private static void setupFrame() {
@@ -20,7 +18,7 @@ public class SierpinskiTriangle {
 		frame=new JFrame("Sierpinski Triangle");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setBackground(Color.white);
-		frame.setSize(screenSize.width/3, screenSize.height/3);
+		frame.setSize(screenSize.width/2, screenSize.height/2);
 	}
 	
 	private static void drawTriangles() {
